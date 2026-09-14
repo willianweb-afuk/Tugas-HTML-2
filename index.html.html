@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resep Rendang by Willian</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5efe6;
+    color:#3d3029;
+}
+
+header{
+    background:linear-gradient(135deg,#6f3d2e,#a9684d);
+    color:white;
+    text-align:center;
+    padding:55px 10px;
+}
+
+header h1{
+    margin:0;
+    font-size:38px;
+    letter-spacing:2px;
+}
+
+header p{
+    margin:10px 0 0;
+}
+
+nav{
+    background:#3f302a;
+    text-align:center;
+    padding:16px;
+    box-shadow:0 3px 10px #0002;
+}
+
+nav a{
+    color:#fff8ef;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#e4b98c;
+}
+
+main{
+    display:grid;
+    grid-template-columns:230px 1fr;
+    gap:15px;
+    max-width:1050px;
+    margin:30px auto;
+    padding:0 15px;
+}
+
+aside{
+    background:#fffaf3;
+    padding:25px 20px;
+    border-radius:15px;
+    box-shadow:0 5px 20px #5b403022;
+    height:max-content;
+}
+
+aside h3{
+    color:#7b4633;
+    margin-top:0;
+    border-bottom:2px solid #d7ad87;
+    padding-bottom:10px;
+}
+
+aside a{
+    display:block;
+    margin:14px 0;
+    padding:8px;
+    color:#79513e;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+aside a:hover{
+    background:#ead8c7;
+}
+
+article{
+    background:#fffaf3;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px #5b403022;
+}
+
+section{
+    margin-bottom:35px;
+}
+
+h2{
+    color:#713d2d;
+    border-left:5px solid #b87855;
+    padding-left:12px;
+}
+
+article img{
+    width:100%;
+    max-height:420px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 5px 15px #0002;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #dcc7b5;
+    padding:12px;
+    text-align:left;
+}
+
+th{
+    background:#c98d68;
+    color:white;
+}
+
+td{
+    background:#fffdf9;
+}
+
+tr:hover td{
+    background:#f5e9dc;
+}
+
+li{
+    margin:10px 0;
+    line-height:1.5;
+}
+
+footer{
+    background:linear-gradient(135deg,#3f302a,#65483c);
+    color:#fff8ef;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:700px){
+    header{
+        padding:40px 15px;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:6px;
+        padding:5px;
+    }
+
+    main{
+        display:block;
+        margin-top:20px;
+    }
+
+    aside{
+        margin-bottom:15px;
+    }
+
+    article{
+        padding:20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>RESEP RENDANG</h1>
+    <p>Masakan Tradisional Indonesia</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#bahan">Bahan</a>
+    <a href="#cara">Cara Membuat</a>
+</nav>
+
+<main>
+
+<aside>
+    <h3>Menu</h3>
+
+    <a href="#home">Home</a>
+    <a href="#tentang">Tentang Rendang</a>
+    <a href="#bahan">Bahan-bahan</a>
+    <a href="#cara">Cara Membuat</a>
+    <a href="https://willianweb-afuk.github.io/Tugas-HTML-2/">TUGAS 2</a>
+</aside>
+
+<article>
+
+<section id="tentang">
+    <h2>Tentang Rendang</h2>
+
+    <img
+    src="rendang.jpg.jpeg"
+    alt="Rendang">
+
+    <p>
+        Rendang adalah salah satu makanan tradisional Indonesia
+        yang terkenal dengan cita rasa gurih, kaya rempah,
+        dan proses memasaknya yang membutuhkan waktu cukup lama.
+    </p>
+
+    <p>
+        Rendang umumnya dibuat menggunakan daging sapi,
+        santan, cabai, dan berbagai macam rempah.
+    </p>
+</section>
+
+<section id="bahan">
+    <h2>Bahan-bahan Rendang</h2>
+
+    <table>
+        <tr>
+            <th>Bahan</th>
+            <th>Jumlah</th>
+        </tr>
+
+        <tr><td>Daging sapi</td><td>1 kg</td></tr>
+        <tr><td>Santan</td><td>1,5 liter</td></tr>
+        <tr><td>Cabai merah</td><td>150 gram</td></tr>
+        <tr><td>Bawang merah</td><td>12 siung</td></tr>
+        <tr><td>Bawang putih</td><td>6 siung</td></tr>
+        <tr><td>Jahe</td><td>3 cm</td></tr>
+        <tr><td>Lengkuas</td><td>3 cm</td></tr>
+        <tr><td>Kunyit</td><td>2 cm</td></tr>
+        <tr><td>Serai</td><td>3 batang</td></tr>
+        <tr><td>Daun jeruk</td><td>5 lembar</td></tr>
+        <tr><td>Daun salam</td><td>3 lembar</td></tr>
+        <tr><td>Daun kunyit</td><td>2 lembar</td></tr>
+        <tr><td>Garam</td><td>1–2 sendok teh</td></tr>
+        <tr><td>Gula</td><td>1 sendok teh</td></tr>
+        <tr><td>Minyak goreng</td><td>3 sendok makan</td></tr>
+    </table>
+</section>
+
+<section id="cara">
+    <h2>Cara Membuat Rendang</h2>
+
+    <ol>
+        <li>Potong daging sapi menjadi beberapa bagian.</li>
+        <li>Haluskan cabai, bawang merah, bawang putih, jahe, kunyit, dan lengkuas.</li>
+        <li>Tumis bumbu halus hingga harum.</li>
+        <li>Masukkan serai, daun jeruk, daun salam, dan daun kunyit.</li>
+        <li>Masukkan santan dan aduk perlahan.</li>
+        <li>Masukkan daging sapi.</li>
+        <li>Masak dengan api kecil hingga santan mengental.</li>
+        <li>Aduk sesekali agar bumbu tidak gosong.</li>
+        <li>Masak hingga bumbu meresap dan rendang berwarna lebih gelap.</li>
+        <li>Rendang siap disajikan.</li>
+    </ol>
+</section>
+
+</article>
+</main>
+
+<footer>
+    © 2026 Resep Rendang by Willian
+</footer>
+
+</body>
+</html>
